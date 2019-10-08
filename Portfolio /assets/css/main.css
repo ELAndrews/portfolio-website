@@ -3600,6 +3600,8 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
+
 		#banner h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
@@ -4016,3 +4018,12 @@ input, select, textarea {
 
 	/* My code */
 
+	.sonnyImg {
+		width: 80vw;
+		max-width: 400px;
+		margin: 0px auto;
+	}
+
+	.personal {
+		display: flex;
+	}
