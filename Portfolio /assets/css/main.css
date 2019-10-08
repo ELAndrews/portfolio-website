@@ -2041,7 +2041,7 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
-		.icon.brands:before {
+		.icon:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
@@ -2803,6 +2803,7 @@ input, select, textarea {
 
 	.wrapper {
 		padding: 6em 0 4em 0 ;
+		font-family: inherit;
 	}
 
 		.wrapper > .inner {
@@ -2996,6 +2997,7 @@ input, select, textarea {
 		.wrapper.style3 {
 			background-color: #505393;
 			color: #d3d4e4;
+			font-family: inherit;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
