@@ -2315,10 +2315,16 @@ input, select, textarea {
 
 		ul.icons.major {
 			padding: 1em 0;
+			flex-wrap: wrap;
 		}
 
 			ul.icons.major li {
-				padding-right: 3.5em;
+				padding-right: 9em;
+			}
+
+			ul.icons.major li:first-child {
+				padding-left: 9em;
+				padding-bottom: 3em;
 			}
 
 				@media screen and (max-width: 736px) {
@@ -3814,10 +3820,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://raw.githubusercontent.com/ELAndrews/portfolio-website/ef2ce017f21eda9f674b96bd320fa122e49343eb/Portfolio%20/images/blurred-background-colors-daytime-1250260.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://raw.githubusercontent.com/ELAndrews/portfolio-website/ef2ce017f21eda9f674b96bd320fa122e49343eb/Portfolio%20/images/blurred-background-colors-daytime-1250260.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://raw.githubusercontent.com/ELAndrews/portfolio-website/ef2ce017f21eda9f674b96bd320fa122e49343eb/Portfolio%20/images/blurred-background-colors-daytime-1250260.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://raw.githubusercontent.com/ELAndrews/portfolio-website/ef2ce017f21eda9f674b96bd320fa122e49343eb/Portfolio%20/images/blurred-background-colors-daytime-1250260.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3964,10 +3970,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://raw.githubusercontent.com/ELAndrews/portfolio-website/ef2ce017f21eda9f674b96bd320fa122e49343eb/Portfolio%20/images/blurred-background-colors-daytime-1250260.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://raw.githubusercontent.com/ELAndrews/portfolio-website/ef2ce017f21eda9f674b96bd320fa122e49343eb/Portfolio%20/images/blurred-background-colors-daytime-1250260.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://raw.githubusercontent.com/ELAndrews/portfolio-website/ef2ce017f21eda9f674b96bd320fa122e49343eb/Portfolio%20/images/blurred-background-colors-daytime-1250260.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://raw.githubusercontent.com/ELAndrews/portfolio-website/ef2ce017f21eda9f674b96bd320fa122e49343eb/Portfolio%20/images/blurred-background-colors-daytime-1250260.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
