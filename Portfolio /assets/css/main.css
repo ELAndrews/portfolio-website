@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	font-family: 'Open sans';
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2554,6 +2556,7 @@ input, select, textarea {
 		list-style: none;
 		padding: 0;
 		width: 100%;
+		font-family: inherit;
 	}
 
 		.features li {
@@ -2805,7 +2808,7 @@ input, select, textarea {
 		.wrapper > .inner {
 			width: 60em;
 			margin: 0 auto;
-			font-family: 
+			font-family: "Open sans";
 		}
 
 			@media screen and (max-width: 1280px) {
@@ -2994,7 +2997,7 @@ input, select, textarea {
 		.wrapper.style3 {
 			background-color: #505393;
 			color: #d3d4e4;
-			font-family: inherit;
+			font-family: 'Courier New', Courier, monospace;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
