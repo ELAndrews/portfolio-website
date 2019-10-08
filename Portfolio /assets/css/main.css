@@ -4026,4 +4026,24 @@ input, select, textarea {
 
 	.personal {
 		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
+
+	.personalText, .sonny {
+		width: calc(50% - 40px);
+	}
+
+	.sonny {
+		text-align: center;
+	}
+
+@media screen and (max-width: 480px) {
+	.personal {
+		flex-direction: column;
+	}
+
+	.personalText, .sonny {
+		width: 80vw;
+	}
+}
