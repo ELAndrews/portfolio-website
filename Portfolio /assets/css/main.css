@@ -2634,6 +2634,8 @@ input, select, textarea {
 
 			.features img {
 				width: 90%;
+				max-height: 300px;
+				object-fit: cover;
 				border: 5px outset white;
 			}
 
